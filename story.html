@@ -47,19 +47,19 @@
     <!-- CHAPTER 1 -->
     <div class="section" id="chapter-1">
       <div class="badge">Chapter 1</div>
-      <h2>Happiness Distribution by Region (2019)</h2>
+      <h2>Is GDP Really the Whole Story</h2>
 
       <div class="figure">
         <img src="./visuals/box_plot.png" alt="Boxplot: Happiness Distribution by Region (2019)"/>
       </div>
 
-      <div class="caption">Is GDP Really the Whole Story?
+      <div class="caption">?Happiness Distribution by Region (2019), happiness score and per capita GDP scores in a boxplot diagram.
 
 At first glance, the data seems to confirm a familiar story.
 
 Regions such as Australia & New Zealand, North America, and Western Europe clearly fit the high-GDP, high-happiness narrative, sitting at the top of the happiness distribution, reflecting strong economic performance with high living standards. Similarly, regions like Southern Asia and Sub-Saharan Africa follow the opposite pattern, with both low GDP levels and lower happiness scores. This aligns well with the mainstream socio-political view: strong economies tend to produce better living conditions and, in turn, happier societies. So far, nothing seems surprising.
 
-However, when we focus on regions with similar economic profiles, the picture becomes less predictable. Eastern Asia and Central & Eastern Europe, for example, sit relatively close in terms of GDP, yet their happiness levels diverge in meaningful ways. This gap points to the influence of factors that extend beyond income alone.</div>
+However, when we focus on regions with similar economic profiles, the picture becomes less explanatory. Eastern Asia and Central & Eastern Europe, for example, sit relatively close in terms of GDP, yet their happiness levels diverge in meaningful ways. This gap points to the influence of factors that extend beyond income alone.</div>
 
       <div class="meta">
         <a class="pill" href="./script/box_plot.ipynb">Source: script/box_plot.ipynb</a>
@@ -69,13 +69,14 @@ However, when we focus on regions with similar economic profiles, the picture be
     <!-- CHAPTER 2 -->
     <div class="section" id="chapter-2">
       <div class="badge">Chapter 2</div>
-      <h2>Global Happiness Factors (2019) — Scatterplot Matrix</h2>
+      <h2>The Hidden Drivers of Happiness</h2>
 
       <div class="figure">
         <iframe src="./visuals/happiness_splom.html" title="SPLOM: Global Happiness Factors (2019)"></iframe>
       </div>
 
-      <div class="caption">If GDP is not the only indicator of happiness, the next question becomes clear: what actually separates happier societies from less happy ones? To explore this, we look beyond single rankings and examine how happiness relates to multiple social and economic factors at the same time.
+      <div class="caption"> Global Happiness Factors (2019) — Scatterplot Matrix. 
+If GDP is not the only indicator of happiness, the next question becomes clear: what actually separates happier societies from less happy ones? To explore this, we look beyond single rankings and examine how happiness relates to multiple social and economic factors at the same time.
 
 As expected, GDP per capita shows a clear positive relationship with happiness. Higher income levels generally support better living conditions and higher well-being. Social support stands out even more strongly, showing a stable and consistent link with happiness across countries. Healthy life expectancy follows a similar pattern, reinforcing the role of long-term physical well-being.
 
@@ -100,7 +101,7 @@ This challenges the assumption that economic development automatically leads to 
     </iframe>
   </div>
 
-  <div class="caption">Tracking Happiness Over Time
+  <div class="caption">Bubble Chart of Countries Including Their Populations (2015-2019)
 
 This animated bubble chart shows how countries’ GDP per capita, happiness, and population change together over time. While economic growth often goes hand in hand with rising happiness, this pattern is far from universal. In Brazil, for instance, happiness peaks around 2015 despite relatively stable GDP levels, then declines sharply. On the other hand, some countries with rising or even rapidly changing GDP, such as the UAE, do not show equally strong changes in happiness levels.
 
@@ -120,9 +121,9 @@ These cases highlight that both stable and fast-growing economies can experience
         <img src="./visuals/regression.png" alt="Regression: Actual vs Predicted (static)"/>
       </div>
 
-      <div class="caption">Can We Predict Happiness?
+      <div class="caption">Estimated Regression Line of Happiness Scores
 
-Using the patterns we explored, we tried to estimate happiness levels for 2019 based on the data we had. The result shows an average difference of 0.523 points between the predicted and real happiness scores. In simple terms, the model gets fairly close, but it does not get everything right.
+Using the patterns we explored, we tried to estimate happiness levels for 2019 based on the data we had from years (2015-2018). The result shows an average difference of 0.523 points between the predicted and real happiness scores. In simple terms, the model gets fairly close, but it does not get everything right.
 
 This outcome is expected. Although the dataset covers several fundamental economic and social determinants, such as income levels, social support, health conditions, individual freedoms, and corruption, it remains inherently limited in scope. Many influences on happiness, cultural values, subjective perceptions and political climate are either difficult to quantify or entirely absent from the data. For this reason, the model is unable to explain all variations in happiness outcomes.
 
