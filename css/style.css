@@ -142,9 +142,9 @@ h1{
   color:var(--muted);
 }
 small{color:var(--muted)}
-/* School logo size */
+
 .brand-logo{
-  height: 20px;   
+  height: 26px;   
   width: auto;
 }
 
