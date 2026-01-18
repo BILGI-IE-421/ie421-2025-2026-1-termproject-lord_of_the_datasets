@@ -18,3 +18,4 @@ This project presents a data-driven exploration of global well-being in which we
 
 ## Hosting
 The project is hosted using GitHub Pages (https://bilgi-ie-421.github.io/ie421-2025-2026-1-termproject-lord_of_the_datasets).
+Repository: https://github.com/bilgi-ie-421/ie421-2025-2026-1-termproject-lord_of_the_datasets
