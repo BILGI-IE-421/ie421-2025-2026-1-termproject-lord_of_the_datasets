@@ -4,11 +4,11 @@
 This project presents a data-driven exploration of global well-being in which we examine how economic, social, and institutional dimensions relate to reported happiness levels using data from 2015 to 2019. We combine the World Happiness dataset with a global population dataset to incorporate demographic context alongside well-being indicators. Moving beyond a purely economic perspective, we analyze income, social support, health conditions, personal freedom, perceptions of corruption, and population size to capture multiple aspects of quality of life. In addition to cross-sectional comparisons, we consider how these relationships evolve over time, allowing us to observe broader trends rather than isolated snapshots. We also investigate whether happiness can be approximated using measurable indicators, highlighting both the strengths and limitations of quantitative approaches to well-being. This approach helps illustrate how different factors interact and how similar economic conditions may lead to different well-being outcomes. We additionally examine differences across major world regions and continents to understand how geographic context relates to overall patterns of development and happiness. Rather than focusing on individual countries or specific results, we aim to identify general patterns and relationships, providing a broader view of how development, demographic dynamics, and well-being interact over time within a global context.
 
 ## Student Names
-Şebnem Karahan - 121203073  
-Begüm Acar - 122203037 
-Sercan Çavuş - 122203045 
-Esma Durmuş - 123203083 
-Burak Can -  121203113 
+- Şebnem Karahan – 121203073  
+- Begüm Acar – 122203037  
+- Sercan Çavuş – 122203045  
+- Esma Durmuş – 123203083  
+- Burak Can – 121203113
 
 ## Files 
 - `data/`: Contains the World Happiness Report, covering the years 2015–2019, and global population datasets used for the detailed analysis. 
