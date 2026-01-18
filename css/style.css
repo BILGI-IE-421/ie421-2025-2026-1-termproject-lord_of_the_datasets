@@ -144,7 +144,7 @@ h1{
 small{color:var(--muted)}
 /* School logo size */
 .brand-logo{
-  height: 20px;   /* <- BURAYI küçültüp büyütebilirsin */
+  height: 15px;   /* <- BURAYI küçültüp büyütebilirsin */
   width: auto;
 }
 
